@@ -2,3 +2,7 @@ feign:
   openai:
     url: https://api.openai.com/v1
     model: gpt-4o
+
+logging:
+  level:
+    project.side.blogai.infrastructure.feign: DEBUG
