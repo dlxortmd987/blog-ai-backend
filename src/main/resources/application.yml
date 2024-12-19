@@ -1,3 +1,3 @@
 logging:
   level:
-    project.side.blogai.infrastructure.feign: DEBUG
+    project.side.blogai.feign: DEBUG

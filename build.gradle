@@ -44,3 +44,7 @@ dependencyManagement {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+tasks.named('bootJar') {
+    mainClass.set('project.side.blogai.BlogAiApplication') // Main 클래스 이름 설정
+}
