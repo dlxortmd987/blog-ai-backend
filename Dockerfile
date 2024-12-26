@@ -10,7 +10,7 @@ RUN ./gradlew clean build
 # Copy the entire project
 COPY . .
 
-# Build the Spring Boot application
+# Build the Spring Boot applicatio
 RUN ./gradlew bootJar
 
 # Step 2: Use a minimal base image to run the application
