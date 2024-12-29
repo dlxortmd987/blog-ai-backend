@@ -37,10 +37,6 @@ public class BlogOpenAiGenerateService implements BlogGenerateService {
 
     private String getSystemMessage(ContentType contentType) {
         return switch (contentType) {
-            case TRAVEL -> """
-                        You are a power blogger who runs travel blog.
-                        You can use phrases, emoticons, and hashtags that fit trend.
-                    """;
             case RESTAURANT -> """
                         You are a power blogger who runs restaurant blog.
                         You can use phrases, emoticons, and hashtags that fit trend.
