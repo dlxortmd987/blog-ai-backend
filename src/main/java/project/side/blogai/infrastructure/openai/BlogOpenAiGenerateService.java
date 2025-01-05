@@ -29,6 +29,7 @@ public class BlogOpenAiGenerateService implements BlogGenerateService {
     private String getUserMessage(String draft) {
         return """
                     Write a blog post based on given draft message.
+                    Ensure all content from the draft is included without omission.
                     Write it richly and in detail.
                     Write in Korean.
                     [Draft Message]: %s
